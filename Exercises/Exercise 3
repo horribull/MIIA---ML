@@ -1,1 +1,7 @@
-ajshdh
+En general hay tres tipos de aprendizaje en ML: supervisado, no supervisado y de refuerzo. 
+
+El aprendizaje supervisado consiste en una variable dependiente que es  explicada por un grupo de predictores, en este caso, las variables independientes y se crea una función con este grupo de variables. El proceso de entrenamiento continúa hasta que se llegue al nivel de precisión deseado. En general, la mayoría de los problemas que resuelven estos modelos son regresión y clasificación. Se  utiliza data etiquetada y se utiliza para modelaje predictivo. Los modelos más comunes de este tipo son regresión lineal, regresión logística, árboles de decisión y random forest.
+
+El aprendizaje no supervisado no hay una variable dependiente, en cambio, se utiliza para hacer clustering de diferentes grupos entre una población, es decir, segmentar individuos dentro de un grupo. También se utiliza para identificar datos extraños en un  conjunto de datos, es decir, detección de anomalías. Se utiliza para modelaje descriptivo de los datos. El algoritmo más conocido de este tipo es el k-means.
+
+Por último en el aprendizaje por refuerzo, se entrena al modelo para que este autónomamente tome decisiones específicas. El modelo se expone a una situación en donde se entrena continuamente usando prueba y error. A partir de estas iteraciones, el  algoritmo intenta capturar los mejores posibles resultado y tomando ‘buenas’ decisiones. Uno de los ejemplos de este algoritmo es el proceso de decisión de Markov, q learning y  deep adversial networks y se utiliza popularmente en videojuegos. 
