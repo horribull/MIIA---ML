@@ -1,2 +1,16 @@
 E5 - Decision Trees Overview
+Write at least 300 words explaining the types of decision trees algorithms and applications.
 
+Un árbol de decisión es un método que busca crear un modelo que predice (o estima) el valor de un variable de respuesta dado varias variables de entrada. Existen dos tipos árboles de decisión: de clasificación y de regresión. El primero es cuando el valor predicho corresponde a la clase a la cual la variable pertenece, es decir, es discreta.  En cambio, en el segundo tipo, el valor es un número contínuo.
+
+Para verificar que cada uno de los pasos dentro del árbol sea ‘bueno’, se pueden utilizar 3 métricas: Gini, que es una medida de la que tan frecuenta un elemento escogido de forma aleatoria sea incorrectamente clasificado, ganancia de información, la cual está basada en el concepto de entropía y la teoría  de la información y reducción de varianza. 
+
+Algunas de las técnicas para construir árboles de decisión son:
+
+Árboles potenciados: Consiste en construir una instancia nueva de un árbol a partir del entrenamiento basado en instancias anteriores. Se puede utilizar para regresión o clasificación.
+Árboles Agregados: Se ensamblan a partir del muestreo de los datos de entrenamiento y ponderando cada uno de estos árboles para llegar a una predicción en consenso. El más conocido es el Random Forest.
+Rotation Forest: En el cual cada árbol de decisión en entrenado utilizando análisis de componentes principales en un grupo aleatorio de variables de entrada. 
+
+Los algoritmos más comunes para construir árboles son: ID3 (Dicotomizador iterativo), CART (Árbol de clasificación y regresión), CHAID (Detector automático de interacción Chi-cuadrado), MARS, entre otros.  
+
+Las aplicaciones de los  árboles de decisión están en todas partes. Es comúnmente utilizado para caracterizar la forma en la que los clientes acceden y hacen uso de un producto o servicio en específico, para crear sistemas de detección de fraude, en la estimación del consumo de energía de un cliente dado ciertos parámetros, en múltiples aplicaciones en el sector salud, entre otros. 
