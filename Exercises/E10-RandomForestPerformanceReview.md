@@ -1,6 +1,7 @@
 # E10 - Random Forest Performance Review
 
-Read and comment the paper *Do we Need Hundreds of Classifiers to Solve Real World Classification Problems?*
+Cuando una persona desea analizar datos se enfrenta al problema de escoger qué clasificador usará como base de su modelo. Generalmente el proceso para escogerlo se fundamenta en la experiencia previa del interesado. Es importante anotar que no existe un clasificador que tenga mejor accuracy para un grupo/tipo de datos en específico. Sin embargo, en general, experimentos hechos al respecto parecen dar algunas luces de qué clasificadores se comportan mejor. Los dos que lideran estos experimentos son Random Forest y SMV. 
 
-### Reference:
-http://jmlr.org/papers/volume15/delgado14a/delgado14a.pdf
+Respecto a estos experimentos de comparación, han surgido críticas al respecto. Estas se centran en los criterios para seleccionar la data, si los parámetros de los clasificadores son los correctos (e incluso si son significativos para la data en particular), es imposible definir el accuracy máximo por lo que cualquier comparación es insuficiente, no es claro si el error de clasificación proviene de la data en sí misma o de la mala aplicación del clasificador y la falta de estandarización en la partición de la data dificulta definir los grupos de entrenamiento y prueba necesario para hacer cross validation.
+
+Estos experimentos utilizan en su mayoría clasificadores pertenecientes a las siguientes familias: análisis discriminante, redes neuronales, SVM, Métodos basados en reglas, Árboles de decisión, Boosting, Bagging, Stacking, Random forests, Otros ensambles, Regresión por componentes principales, Regresión logística y multinomial, MARS, entre otros. 
