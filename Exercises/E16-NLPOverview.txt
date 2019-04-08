@@ -2,4 +2,16 @@
 
 Research for a commercial product which uses NLP as a core(E.g. google assistant) and describes, in general words, which NLP techniques it uses.
 
-(If two of you have the same commercial product, both of your grades will be penalized --- Be creative! )
+Houndify:
+
+Es una plataforma que ofrece la capacidad de convertir de voz a texto. Su tecnología propietaria incorpora dos métodos de reconocimiento de voz y nature language processing: ASR (Automatic speech recognition) y NLU (nature language understanding). Esto se traduce en un incremento en la velocidad y accuracy de la conversión. 
+
+El primero funciona de la siguiente manera: 
+
+1.	El interlocutor le habla al software a traves de una alimentación de audio.
+2.	El dispositivo crea un archivo con las ondas de las palabras
+3.	El archivo con la onda se limpia quitándole el ruido de fondo
+4.	La onda resultante es dividida en fonemas. 
+5.	Cada fonema se analiza como una cadena y se analiza en secuencia. El ASR calcula la probabilidad de que cada cadena de fonemas pertenezca a una palabra y de ahí forma frases completas. 
+
+El segundo descompone las frases en N-gramas y utiliza un modelo de neural networks para encontrar el significado en las palabras, similar a lo que ocurre en el punto 5 mencionado anteriormente.
